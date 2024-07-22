@@ -37,9 +37,9 @@ const options = {
                 backgroundColor: '#EF4040',
                 messageColor: '#FAFAFB',
                 color: '#FAFAFB',
+                icon: '',
                 iconUrl: `${sprite}#icon-x-round`,
                 iconColor: '#FAFAFB',
-
             });
         }else{
             userSelectedDate = selectedDates[0].getTime();
