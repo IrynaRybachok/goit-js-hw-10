@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
     
-  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-3cfb730f.js">
-  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-77e16229.js">
-  <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-7a007824.css">
-  <link rel="stylesheet" href="/vanilla-app-template/assets/styles-4e32fa18.css">
+  <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/sprite-9865b719.js">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-3434d3c7.css">
 </head>
 <body>
-    <a class="btn-home" href="./index.html">Go to home</a>
+    <section class="wrap-btn-home">
+        <a class="btn-home" href="./index.html">Go to home</a>
+    </section>
 
-    <section class="page-timer">
+    <section class="conteiner">
         <div class="calendar">
             <input type="text" id="datetime-picker" />
             <button type="button" data-start>Start</button>
@@ -38,7 +46,6 @@
             </div>
         </div>
     </section>
-
 
     
 </body>
