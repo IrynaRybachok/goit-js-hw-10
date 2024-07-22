@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <a class="btn-home" href="./index.html">Go to home</a>
+    <section class="wrap-btn-home">
+        <a class="btn-home" href="./index.html">Go to home</a>
+    </section>
 
-    <section class="page-timer">
+    <section class="conteiner">
         <div class="calendar">
             <input type="text" id="datetime-picker" />
             <button type="button" data-start>Start</button>
@@ -33,7 +41,6 @@
             </div>
         </div>
     </section>
-
 
     <script type="module" src="./js/1-timer.js"></script>
 </body>

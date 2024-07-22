@@ -8,6 +8,7 @@ import iziToast from "izitoast";
 // Додатковий імпорт стилів
 import "izitoast/dist/css/iziToast.min.css";
 
+import sprite from '../img/sprite.svg';
 
 const btnStart = document.querySelector("[data-start]");
 const calendar = document.querySelector("#datetime-picker");
@@ -31,11 +32,14 @@ const options = {
             iziToast.show({
                 title: '',
                 message: 'Please choose a date in the future', 
+                messageSize: '16px',
                 position: 'topRight',
                 backgroundColor: '#EF4040',
-                messageColor: 'white',
-                closeOnClick: true,
-                close: false,
+                messageColor: '#FAFAFB',
+                color: '#FAFAFB',
+                iconUrl: `${sprite}#icon-x-round`,
+                iconColor: '#FAFAFB',
+
             });
         }else{
             userSelectedDate = selectedDates[0].getTime();
